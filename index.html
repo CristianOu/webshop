@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Shop</title> 
+ 
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/responsize-font.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="global">
+    <div class="product-container">
+        <div class="cover-img-container">
+            <img  src="./images/product-main.jpeg"  alt="image-banner"  class="image-banner" />
+        </div>
+        <div class="product-overview">
+            <div class="breadcrumbs-container">
+                <img src="./images/go-back-arrow.svg" alt="step back" class="back-arrow"/> 
+                <ul class="breadcrumbs"></ul>
+            </div>
+            <div class="product-name t1-responsive"></div>
+            <div class="sub-heading"></div>
+            <div class="sep-line"></div>
+            <div class="product-description"></div>
+            <div class="sep-line"></div>
+            <div class="highlights-container"></div>
+            <div class="sep-line"></div>
+            <button class="add-to-cart-button t3-responsive" onclick="handleButton()">Add to cart</button>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <div class="product-suggestions-title t1-responsive">You may also like</div>
+        <div class="suggestions-list"></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body> 
+</html>
+

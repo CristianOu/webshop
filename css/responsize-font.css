@@ -1,0 +1,15 @@
+.t1-responsive {
+    font-size: clamp(1rem, 6.4vw, 1.75rem);
+}
+
+/* .t2-responsive {
+    font-size: clamp(0.9rem, 5.8vw, 1.6rem);
+} */
+
+.t3-responsive {
+    font-size: clamp(1rem, 3vw, 1.15rem);
+}
+
+.t4-responsive {
+    font-size: clamp(0.75rem, 3.5vw, 1rem);
+}
